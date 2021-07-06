@@ -26,6 +26,8 @@ Because of it's characteristics, we can say that with Java you can "write once a
 ### Jackson Project
 Do you know the Jackson Project (https://github.com/FasterXML/jackson)?
 
+You can find cool tutorials at https://www.baeldung.com/jackson.
+
 ### Markdown
 What about Markdown (https://guides.github.com/features/mastering-markdown/)?
 
