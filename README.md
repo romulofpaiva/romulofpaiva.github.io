@@ -14,34 +14,18 @@ Rômulo Ferreira Paiva.
 
 https://www.linkedin.com/in/romulofpaiva/
 
+### Java
+What is Java?
+
+Java is a multi-platform programming language. It means that it allows writing programs that can be executed at any platform.
+
+The secret power is the Java Virtual Machine (JVM). There are JVMs designed for most of platforms (Linux, Windows, etc.) that compile the bytecodes (pre-compiled Java code) for the Operational System (OS).
+
+Because of it's characteristics, we can say that with Java you can "write once and run anywhere".
+
+### Jackson Project
+Do you know the Jackson Project (https://github.com/FasterXML/jackson)?
+
 ### Markdown
+What about Markdown (https://guides.github.com/features/mastering-markdown/)?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/romulofpaiva/romulofpaiva.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
