@@ -1,8 +1,18 @@
-## Welcome to GitHub Pages
+## Rômulo Ferreira Paiva's Knowledge Base
 
-You can use the [editor on GitHub](https://github.com/romulofpaiva/romulofpaiva.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Hi Folks!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I'm a Software Engineer that have been working with software development at about 25 years in Educational and Finantial industries.
+
+My goal with this site is document and share articles, experiences, tips and tricks during my journey to build a knowledge base that could help me and others.
+
+I hope you enjoy it!
+
+Best Regards,
+
+Rômulo Ferreira Paiva.
+
+https://www.linkedin.com/in/romulofpaiva/
 
 ### Markdown
 
