@@ -6,3 +6,7 @@ The secret power is the Java Virtual Machine (JVM). There are JVMs designed for 
 
 Because of it's characteristics, we can say that with Java you can "write once and run anywhere".
 
+
+<hr>
+
+[Home](index.html)
