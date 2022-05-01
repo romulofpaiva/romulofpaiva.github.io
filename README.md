@@ -6,14 +6,14 @@ I'm a Software Engineer working with software development at about 25 years, wit
 
 Here I share my articles, experiences, tips/tricks, proof of concept and other stuffs that can help anyone (including me). So, it's a blog and a knowledge base.
 
-You can reach me at Twitter at @romulofpaiva or LinkedIn at https://www.linkedin.com/in/romulofpaiva/.
+You can reach me at [Twitter](https://twitter.com/romulofpaiva) or [LinkedIn](https://www.linkedin.com/in/romulofpaiva/).
 
 I hope you enjoy it! Feel free to contact me.
 
 Best Regards,
 Rômulo Ferreira Paiva.
 
-Below you will find link for the subjects that I've already wrote or are in my mind for write about.
+### Below you will find link for the subjects that I've already wrote or are in my mind for write about.
 
 ## Cloud Computing
 #### Basic Concepts
@@ -25,11 +25,11 @@ Below you will find link for the subjects that I've already wrote or are in my m
 
 ## Markup Languages
 #### HTML
-#### <a href="markdown.html">Markdown</a>
+#### [Markdown]("markdown.html")
 
 ## Programming Languages and Platforms
 #### Groovy
-#### <a href="java.html">Java</a>
+#### [Java]("java.html")
 #### JavaScript
 #### Kotlin
 #### Node.js
@@ -39,7 +39,7 @@ Below you will find link for the subjects that I've already wrote or are in my m
 #### Spring
 
 ## Libraries
-#### <a href="jackson-project.html">Jackson Project</a>
+#### [Jackson Project]("jackson-project.html")
 
 ## Test Frameworks
 #### JUnit
