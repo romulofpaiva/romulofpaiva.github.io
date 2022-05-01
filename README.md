@@ -25,11 +25,11 @@ Below you will find link for the subjects that I've already wrote or are in my m
 
 ## Markup Languages
 #### HTML
-#### <a href="markdown.html">Markdown</a>
+#### <a href="markdown.md">Markdown</a>
 
 ## Programming Languages and Platforms
 #### Groovy
-#### <a href="java.html">Java</a>
+#### <a href="java.md">Java</a>
 #### JavaScript
 #### Kotlin
 #### Node.js
