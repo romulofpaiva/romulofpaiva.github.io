@@ -1,5 +1,5 @@
 ### Jackson Project
-<a href="https://github.com/FasterXML/jackson">Jackson Project</a> provide a set of libraries for languages based on JVM platform for JSON parser/generator, data-binding and others.
+[Jackson Project](https://github.com/FasterXML/jackson) provide a set of libraries for languages based on JVM platform for JSON parser/generator, data-binding and others.
 
 
 #### Tips
