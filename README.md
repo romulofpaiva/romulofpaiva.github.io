@@ -25,11 +25,11 @@ Rômulo Ferreira Paiva.
 
 ## Markup Languages
 #### HTML
-#### [Markdown]("markdown.html")
+#### [Markdown](markdown.html)
 
 ## Programming Languages and Platforms
 #### Groovy
-#### [Java]("java.html")
+#### [Java](java.html)
 #### JavaScript
 #### Kotlin
 #### Node.js
@@ -39,7 +39,7 @@ Rômulo Ferreira Paiva.
 #### Spring
 
 ## Libraries
-#### [Jackson Project]("jackson-project.html")
+#### [Jackson Project](jackson-project.html)
 
 ## Test Frameworks
 #### JUnit
