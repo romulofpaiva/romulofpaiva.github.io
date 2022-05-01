@@ -11,15 +11,15 @@ I hope you enjoy it! Feel free to contact me.
 Best Regards,
 Rômulo Ferreira Paiva.
 
-**Below you will find link for the subjects that I've already wrote or are in my mind for write about.**
+**Below you will find what I've already wrote or are in my mind for write about.**
 
-## Articles
+### Articles
 - News of Java 18 (soon... in may/2022)
 
-## Proofs of Concept
+### Proofs of Concept
 - Message communication
 
-## Cloud Computing
+### Cloud Computing
 - Basic Concepts
 - Cloud Providers
 - Amazon Web Services (AWS)
@@ -27,11 +27,11 @@ Rômulo Ferreira Paiva.
 - Microsoft Azure
 - Oracle Cloud
 
-## Markup Languages
+### Markup Languages
 - HTML
 - [Markdown](markdown.html)
 
-## Programming Languages and Platforms
+### Programming Languages and Platforms
 - Groovy
 - [Java](java.html)
 - JavaScript
@@ -39,12 +39,12 @@ Rômulo Ferreira Paiva.
 - Node.js
 - Python
 
-## Development Frameworks
+### Development Frameworks
 - Spring
 
-## Libraries
+### Libraries
 - [Jackson Project](jackson-project.html)
 
-## Test Frameworks
+### Test Frameworks
 - JUnit
 
