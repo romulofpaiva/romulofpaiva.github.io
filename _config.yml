@@ -1,3 +1,10 @@
 theme: jekyll-theme-cayman
-title: Software Development by Rômulo Paiva
-description: blog-knowledge base
+
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      title: Software Development by Rômulo Paiva
+      description: blog-knowledge base
