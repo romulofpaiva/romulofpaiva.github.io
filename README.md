@@ -1,5 +1,3 @@
-## Software Development by Rômulo Ferreira Paiva
-
 Hi Folks!
 
 I'm a Software Engineer working with software development at about 25 years, with experience in Educational and Finantial industries. I've been working with development of small and big platforms with thousand of requests per minute. Most of those developed under JVM, relational databases, hosted on-premisse and cloud.
