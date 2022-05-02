@@ -20,12 +20,24 @@ Rômulo Ferreira Paiva.
 - Message communication
 
 ### Cloud Computing
-- Basic Concepts
+- Basics Concepts
 - Cloud Providers
 - Amazon Web Services (AWS)
 - Google Cloud Platform (GCP)
 - Microsoft Azure
 - Oracle Cloud
+
+### Containers
+- Basics Concepts
+- Containerd
+- Docker
+- Podman
+
+### Containers Orquestration
+- Basics Concepts
+- Kubernetes
+- Amazon Elastic Container Service (ECS)
+- Amazon Elastic Kubernetes Service (EKS)
 
 ### Markup Languages
 - HTML
