@@ -44,6 +44,7 @@ Rômulo Ferreira Paiva.
 - [Markdown](markdown.html)
 
 ### Programming Languages and Platforms
+- [Golang](golang.html)
 - Groovy
 - [Java](java.html)
 - JavaScript
