@@ -8,6 +8,12 @@
 go mod init <module's module path>
 ```
 
+- Build an executable file by compiling the packages and dependencies.
+
+```
+go build -o <output file name>
+```
+
 - Run a program
 
 ```
