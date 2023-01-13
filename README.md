@@ -14,7 +14,7 @@ Rômulo Ferreira Paiva.
 **Below you will find what I've already wrote or are in my mind for write about.**
 
 ### Articles
-- News of Java 18 (soon... in may/2022)
+- Java 18 (https://www.zup.com.br/blog/java-18)
 
 ### Proofs of Concept
 - Message communication
