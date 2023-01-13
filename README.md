@@ -55,8 +55,9 @@ Rômulo Ferreira Paiva.
 ### Development Frameworks
 - Spring
 
-### Libraries
+### Libraries & Plugins
 - [Jackson Project](jackson-project.html)
+- [JAXB2 Maven Plugin](jaxb2-maven-plugin.html)
 
 ### Test Frameworks
 - JUnit
