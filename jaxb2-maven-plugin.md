@@ -2,11 +2,13 @@
 
 [JAXB2 Maven Plugin](https://www.mojohaus.org/jaxb2-maven-plugin/Documentation/v2.4/index.html) plugin allows generation of Java classes from XML schemas and XML schemas from Java classes.
 
-For example, to generate the Java classes from schema definition (WSDL), you need to:
+#### Java classes generation from schema definition (WSDL)
 
 1. Put the schema definition (WSDL) in the src/main/resources/wsdl folder of your project.
 
 2. Include in your project's pom.xml the configuration for JAXB2 Maven Plugin.
+
+3. Compile your project.
 
 ```
 ...
@@ -26,7 +28,7 @@ For example, to generate the Java classes from schema definition (WSDL), you nee
          </executions>
          <configuration>
             <outputDirectory>${project.baseDir}/src/main/java</outputDirectory>
-            <packageName>example.jaxb.package</packageName>  <!--Enter here the package name where you want to generate the Java classes-->
+            <packageName>com.example.mypackage</packageName>  <!--Enter here the package name where you want to generate the Java classes-->
             <sourceType>wsdl</sourceType>
             <clearOutputdir>false</clearOutputdir>
             <noPackageLevelAnnotations>true</noPackageLevelAnnotations>
@@ -38,6 +40,13 @@ For example, to generate the Java classes from schema definition (WSDL), you nee
    </plugins>
 </build>
 ...
-```
+``` 
 
-3. Compile your project 
+#### Bean definition
+
+TODO
+
+#### Interface definition
+
+TODO
+
