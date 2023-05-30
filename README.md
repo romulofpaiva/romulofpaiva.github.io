@@ -58,6 +58,7 @@ Rômulo Ferreira Paiva.
 ### Libraries & Plugins
 - [Jackson Project](jackson-project.html)
 - [JAXB2 Maven Plugin](jaxb2-maven-plugin.html)
+- [OpenFeign](openfeign.html)
 
 ### Test Frameworks
 - JUnit
