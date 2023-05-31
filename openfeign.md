@@ -85,7 +85,7 @@ public interface WorkerFeignClient {
 }
 ```
 
-Step 2: In yout service class, create a variable of the Feign client class type, then call the interface method. 
+Step 2: In the service class, create a variable of the Feign client class type, then call the interface method. 
 
 P.S.: In this example, there is an interface WorkerClient that allow us to change the client implementation without change our service class. It's a design pattern: "program to interfaces, not implementations".
 
