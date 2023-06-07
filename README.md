@@ -60,6 +60,7 @@ Rômulo Ferreira Paiva.
 - [JAXB2 Maven Plugin](jaxb2-maven-plugin.html)
 - [OpenFeign](openfeign.html)
 - [RestTemplate](resttemplate.html)
+- [Ribbon](ribbon.html)
 
 ### Test Frameworks
 - JUnit
