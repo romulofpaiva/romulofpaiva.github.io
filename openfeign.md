@@ -1,6 +1,6 @@
 # OpenFeign
 
-Declarative REST Client. OpenFeign creates a dynamic implementation of an interface decorated with JAX-RS or Spring MVC annotations.
+Declarative REST Client. [OpenFeign](https://github.com/OpenFeign/feign) creates a dynamic implementation of an interface decorated with JAX-RS or Spring MVC annotations.
 
 ### Configuration
 
