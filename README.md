@@ -58,8 +58,21 @@ Rômulo Ferreira Paiva.
 ### Libraries & Plugins
 - [Jackson Project](jackson-project.html)
 - [JAXB2 Maven Plugin](jaxb2-maven-plugin.html)
-- [OpenFeign](openfeign.html)
+
+### HTTP Clients
 - [RestTemplate](resttemplate.html)
+- [OpenFeign](openfeign.html)
+
+### Service Discovery
+- [Eureka](eureka.html)
+
+### Circuit Breaker
+- Hystrix
+
+### Routing
+- Zuul
+
+### Client Side Load Balancing
 - [Ribbon](ribbon.html)
 
 ### Test Frameworks
