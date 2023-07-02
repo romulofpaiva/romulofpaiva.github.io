@@ -23,11 +23,7 @@ Rômulo Ferreira Paiva.
 
 ### [Containers](containers.html)
 
-### Containers Orquestration
-- Basics Concepts
-- Kubernetes
-- Amazon Elastic Container Service (ECS)
-- Amazon Elastic Kubernetes Service (EKS)
+### [Containers Orquestration](containers-orquestration.html)
 
 ### Markup Languages
 - HTML
