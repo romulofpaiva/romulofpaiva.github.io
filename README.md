@@ -25,6 +25,8 @@ Rômulo Ferreira Paiva.
 
 ### [Containers Orquestration](containers-orquestration.html)
 
+### Infraestructure as Code (IaC) 
+
 ### Markup Languages
 - HTML
 - [Markdown](markdown.html)
