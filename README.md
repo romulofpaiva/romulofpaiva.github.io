@@ -19,19 +19,9 @@ Rômulo Ferreira Paiva.
 ### Proofs of Concept
 - Message communication
 
-### Cloud Computing
-- Basics Concepts
-- Cloud Providers
-- Amazon Web Services (AWS)
-- Google Cloud Platform (GCP)
-- Microsoft Azure
-- Oracle Cloud
+### [Cloud Computing](cloudcomputing.html)
 
-### Containers
-- Basics Concepts
-- Containerd
-- [Docker](docker.html)
-- Podman
+### [Containers](containers.html)
 
 ### Containers Orquestration
 - Basics Concepts
