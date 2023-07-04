@@ -31,7 +31,7 @@ All you need is Docker (or similarly compatible) container or a Virtual Machine 
 - kubectl get pods -n \<namespace\> (list the pods for an especific namespace)
 - kubectl get pods -n \<namespace\> -o wide (list the pods for an especific namespace with extra information like IP)
 - kubectl delete pod \<pod name\> -n \<namespace\>
-- kubectl describe pod \<pod name\> -n \<namespace\> (show the events log of the pod)
+- kubectl describe pod \<pod name\> -n \<namespace\> (Show the events log of the pod. If a pod has been running for a while, Kubernetes will assume it is healthy and not show its events.)
 - kubectl logs \<pod name\> -n \<namespace\> (display the logs of an application in a especific pod and namespace)
 
 ### Creating Namespaces
