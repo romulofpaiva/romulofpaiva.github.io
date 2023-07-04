@@ -27,6 +27,7 @@ All you need is Docker (or similarly compatible) container or a Virtual Machine 
 
 #### pods management
 - kubectl apply -f \<deployment config file\> (file with configuration for containers deployment)
+- kubectl get pods (list all pods in the default namespace)
 - kubectl get pods -A (lists the pods from all the namespaces)
 - kubectl get pods -n \<namespace\> (list the pods for an especific namespace)
 - kubectl get pods -n \<namespace\> -o wide (list the pods for an especific namespace with extra information like IP)
