@@ -25,12 +25,12 @@ All you need is Docker (or similarly compatible) container or a Virtual Machine 
 - kubectl get namespaces or kubectl get ns
 - kubectl delete -f <namespace config file> (file with configuration of namespaces)
 
-#### containers management
+#### pods management
 - kubectl apply -f <deployment config file> (file with configuration for containers deployment)
 - kubectl get pods -A (lists the pods from all the namespaces)
 - kubectl get pods -n <namespace> (list the pods for an especific namespace) 
 - kubectl delete pod <pod-name> -n <namespace>
-
+- kubectl describe pod <pod name> -n <namespace> (show the events log of the pod)
 
 ### Creating Namespaces
 Namespaces isolate and organize workloads.
@@ -107,3 +107,5 @@ spec:
 4. Execute the command "kubectl get pods -n development" to check the pods that the deployment created.
 
 5. Execute the command "kubectl delete pod <pod-name> -n development" to delete the pod from the development namespace. You'll see that it will be replaced automatically by a new pod.
+
+6. Execute the command "kubectl describe pod <pod-name> -n development" to view the events log of the pod.
