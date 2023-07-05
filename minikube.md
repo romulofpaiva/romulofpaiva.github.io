@@ -270,3 +270,14 @@ spec:
 
 2. Execute the command "kubectl apply -f deployment.yaml." to replace the containers with the new configuration.
 
+
+### Deleting Kubernetes objects and tear down the cluster
+
+Execute the following commands:
+   - kubectl delete -f busybox.yaml
+   - kubectl delete -f deployment.yaml
+   - kubectl delete -f quote.yaml
+   - kubectl delete -f service.yaml
+   - kubectl delete -f namespace.yaml
+   - minikube delete
+
