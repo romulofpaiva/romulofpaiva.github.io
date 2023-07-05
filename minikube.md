@@ -11,6 +11,7 @@ All you need is Docker (or similarly compatible) container or a Virtual Machine 
 - minikube update-check (verify/update minikube version)
 - minikube stop (stop a cluster)
 - minikube delete (delete a cluster)
+- minikube tunnel (
 
 #### cluster management
 - kubectl cluster-info
@@ -178,3 +179,39 @@ spec:
 
 2. Execute the command "kubectl logs \<pod name\> -n development" to display the pod's log.
 
+
+### Expose an application to the internet with a LoadBalancer
+
+1. Execute the command "minikube tunnel" to allow simulation of exposing the services via load balancer to external world.
+
+2. Create the file service.yaml with the following content.
+
+```yaml
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-service
+  namespace: development
+spec:
+  selector:
+    app: pod-info
+  ports:
+    - port: 80
+      targetPort: 3000
+  type: LoadBalancer
+```
+
+3. Execute the command "kubectl apply -f service.yaml".
+
+4. Execute the command "kubectl get services -n development" to obtain the EXTERNAL-IP (public ip).
+
+5. Get the EXTERNAL-IP addres, open an web browser, and put the ip address in the address bar. The result may look like the following.
+
+```json
+{
+    "pod_name": "pod-info-deployment-757cb75bbb-rth4x",
+    "pod_namespace": "development",
+    "pod_ip": "10.244.0.6"
+}
+```
