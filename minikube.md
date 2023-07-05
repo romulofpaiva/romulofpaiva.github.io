@@ -11,7 +11,8 @@ All you need is Docker (or similarly compatible) container or a Virtual Machine 
 - minikube update-check (verify/update minikube version)
 - minikube stop (stop a cluster)
 - minikube delete (delete a cluster)
-- minikube tunnel (
+- minikube tunnel (connect to loadbalancer services)
+- minikube dashboard (access the Kubernetes dashboard running within the minikube cluster)
 
 #### cluster management
 - kubectl cluster-info
@@ -215,3 +216,57 @@ spec:
     "pod_ip": "10.244.0.6"
 }
 ```
+
+
+### Add resource requests and limits to a pod
+
+1. Update the file deployment.yaml with this new content. It includes the resources specification.
+
+```yaml
+--- 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pod-info-deployment
+  namespace: development
+  labels:
+    app: pod-info
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pod-info
+  template:
+    metadata:
+      labels:
+        app: pod-info
+    spec:
+      containers:
+      - name: pod-info-container
+        image: kimschles/pod-info-app:latest
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3000
+        env:
+          - name: POD_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.name
+          - name: POD_NAMESPACE
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.namespace
+          - name: POD_IP
+            valueFrom:
+              fieldRef:
+                fieldPath: status.podIP
+```
+
+2. Execute the command "kubectl apply -f deployment.yaml." to replace the containers with the new configuration.
+
