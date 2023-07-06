@@ -1,8 +1,10 @@
 ## Kubernetes
 
-![alt text][kubernetes]
+![alt text][kubernetes cluster]
+[kubernetes cluster]: kubernetes-cluster.png "Kubernetes Cluster"
 
-[kubernetes]: kubernetes-cluster.png "Kubernetes Cluster"
+![alt text][kubernetes sequence diagram]
+[kubernetes sequence diagram]: kubernetes-sequence-diagram.png "Kubernetes Sequence Diagram"
 
 
 A Cluster is an instance of Kubernetes. Each cluster has a Control Plane, and at least one Worker node.
@@ -43,6 +45,28 @@ It's a collection of the following components:
 - Deployments
 - Horizontal pod autoscaler
 
+
+**Worker Nodes**
+
+The Worker Nodes are where pods are scheduled and run, and each worker node has three components.
+
+- Kubelet
+  - an agent that runs on every worker node
+  - makes sure that the containers in a pod have started running and are healthy
+  - communicates directly with the api-server in the control plane looking for newly assigned pods.
+
+- Container Runtime
+  - A Kubelet assigned to new pod starts a container using Container Runtime Interface (CRI)
+  - CRI enables the Kublet to create containers with the engines:
+    - Containerd
+    - CRI-O
+    - Kata Containers
+    - AWS Firecracker
+
+- Kube-proxy
+  - makes sure pods and services can communicate with other pods and services on nodes, and in the control plane.
+  - each kube-proxy communicates directly with the kube api-server.
+ 
 
 ## minikube
 
