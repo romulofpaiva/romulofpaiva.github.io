@@ -1,5 +1,10 @@
 ## Kubernetes
 
+![alt text][kubernetes]
+
+[kubernetes]: kubernetes-cluster.png "Kubernetes Cluster"
+
+
 A Cluster is an instance of Kubernetes. Each cluster has a Control Plane, and at least one Worker node.
 
 The Control Plane contains the components that manage a cluster, and enable the resiliency and automation that make Kubernetes such a popular container orchestrator.
@@ -31,7 +36,7 @@ It's a collection of the following components:
 
 - cloud controller manager (c-c-m)
   - connect the cluster with cloud provider's API like AWS, Azure, GCP, or any public cloud, allowing the use of cloud resources.
-  - 
+
 
 **Kubernetes objects**
 - Pods
