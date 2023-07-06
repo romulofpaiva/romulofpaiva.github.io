@@ -1,3 +1,44 @@
+## Kubernetes
+
+A Cluster is an instance of Kubernetes. Each cluster has a Control Plane, and at least one Worker node.
+
+The Control Plane contains the components that manage a cluster, and enable the resiliency and automation that make Kubernetes such a popular container orchestrator.
+
+It's a collection of the following components:
+
+- kube api server: exposes the Kubernetes api with a REST interface. Kubernetes objects have API endpoints.
+  - kubectl and kubeadm are CLI tools to communicate with the Kubernetes API via HTTP requests.
+  - "kubectl api-resources" list all Kubernetes objects and API versions.
+  - the kube api server is a containerized application that runs in the "kube-system" namespace. Use the command "kubectl get pods -n kube-system" to view the kube api server information.
+
+- etcd
+  - open-source high-available key-value store
+  - that saves all data about the cluster
+  - has communication only with the kube api server.
+  - run a pod
+  - the command "kubectl logs etcd-minikube -n kube-system | jq ." to see the logs
+
+- kube scheduler (sched)
+  - identifies newly created pods that have not been assingned to a worker node.
+  - choose a node for new pods run on.
+  - run as a pod
+  - can also has logs analyzed.
+ 
+- kube controller manager (c-m)
+  - runs in a loop to check the cluster's status
+  - it's responsible for replacing broken worker nodes with new worker nodes.
+  - it's responsible for checking other things.
+
+- cloud controller manager (c-c-m)
+  - connect the cluster with cloud provider's API like AWS, Azure, GCP, or any public cloud, allowing the use of cloud resources.
+  - 
+
+**Kubernetes objects**
+- Pods
+- Deployments
+- Horizontal pod autoscaler
+
+
 ## minikube
 
 [minikube](https://minikube.sigs.k8s.io/docs/start/) is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.
