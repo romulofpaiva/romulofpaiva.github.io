@@ -1,11 +1,8 @@
 ## Kubernetes
 
-![alt text][kubernetes cluster]
-[kubernetes cluster]: kubernetes-cluster.png "Kubernetes Cluster"
+![alt text][kubernetes-cluster]
 
-![alt text][kubernetes sequence diagram]
-[kubernetes sequence diagram]: kubernetes-sequence-diagram.png "Kubernetes Sequence Diagram"
-
+[kubernetes-cluster]: kubernetes-cluster.png "Kubernetes Cluster"
 
 A Cluster is an instance of Kubernetes. Each cluster has a Control Plane, and at least one Worker node.
 
@@ -66,7 +63,12 @@ The Worker Nodes are where pods are scheduled and run, and each worker node has 
 - Kube-proxy
   - makes sure pods and services can communicate with other pods and services on nodes, and in the control plane.
   - each kube-proxy communicates directly with the kube api-server.
- 
+
+
+![alt text][kubernetes-sequence-diagram]
+
+[kubernetes-sequence-diagram]: kubernetes-sequence-diagram.png "Kubernetes Sequence Diagram"
+
 
 ## minikube
 
