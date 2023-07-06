@@ -70,6 +70,17 @@ The Worker Nodes are where pods are scheduled and run, and each worker node has 
 [kubernetes-sequence-diagram]: kubernetes-sequence-diagram.png "Kubernetes Sequence Diagram"
 
 
+**Ways to manage Kubernetes pods**
+
+- DaemonSet: DaemonSets allow you to run one pod per node, which works well for running pods implementing background processes such as agents.
+
+- Deployment: Allows to control the number of replicas running. Roll out new instances without no downtime.
+
+- Job: A Kubernetes Job will spin up a pod, run the container until its task is complete, and then terminate the pod. A Job is best for applications that perform one-time operations, like an ETL.
+
+- StatefulSet: A statefulSet is an object that lets an updated Kubernetes application communicate with the same volume as the previous pod.
+
+
 ## minikube
 
 [minikube](https://minikube.sigs.k8s.io/docs/start/) is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.
