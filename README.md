@@ -55,7 +55,7 @@ Rômulo Ferreira Paiva.
 - [Eureka](eureka.html)
 
 ### Circuit Breaker
-- Hystrix
+- [Hystrix](hystrix.html)
 
 ### Routing
 - Zuul
